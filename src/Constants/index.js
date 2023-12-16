@@ -20,7 +20,8 @@ import {
     tesla,
     shopify,
     threejs,
-    portfolio
+    portfolio,
+    shirt
   } from "../assets";
   
   export const navLinks = [
@@ -195,10 +196,44 @@ import {
   ];
   
   const projects = [
+    // {
+    //   name: "3D Portfolio",
+    //   description:
+    //     "A 3D portfolio to showcase all my projects and work experience",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "three.js",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "framer-motion",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "react-tilt",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "emailjs",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: portfolio,
+    //   source_code_link: "https://github.com/mo2men165/3D-Portfolio/tree/main",
+    //   website_link: "#home"
+    // },
     {
-      name: "3D Portfolio",
+      name: "3D Shirt Customzier",
       description:
-        "A 3D portfolio to showcase all my projects and work experience",
+        "A 3D tool that allows you to create unique t-shirt designs",
       tags: [
         {
           name: "react",
@@ -221,12 +256,13 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "emailjs",
+          name: "valtio",
           color: "pink-text-gradient",
         },
       ],
-      image: portfolio,
-      source_code_link: "https://github.com/mo2men165/3D-Portfolio",
+      image: shirt,
+      source_code_link: "https://github.com/mo2men165/3D-Shirt-Customizer",
+      website_link: 'https://mo2men165.github.io/3D-Shirt-Customizer/'
     },
   ];
   

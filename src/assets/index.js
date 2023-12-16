@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 
 
 import portfolio from "./portfolio.png";
+import shirt from "./shirt.png"
 
 export {
   logo,
@@ -55,5 +56,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  portfolio
+  portfolio,
+  shirt
 };

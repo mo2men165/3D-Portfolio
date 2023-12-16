@@ -6,7 +6,7 @@ import { github } from "../assets";
 import { projects } from "../Constants";
 import { fadeIn, textVariant } from "../Utils/motion";
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link}) => (
+const ProjectCard = ({index, name, description, tags, image, source_code_link, website_link}) => (
 <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
 <Tilt 
 options = {{max: 45, scale: 1, speed: 450 }}
@@ -33,6 +33,15 @@ className="black-gradient w-10 h-10 rounded-full flex justify-center items-cente
     #{tag.name}
   </p>
 ))}
+
+</div>
+<div className="mt-3">
+<button 
+className="btn py-2 px-3 text-[12px] outlined-none w-fit 
+text-white text-bold shadow-md shadow-primary rounded-xl"
+onClick={()=> window.open(website_link, "_blank")}>
+    Check it out
+</button>
 </div>
 </Tilt>
 </motion.div>
