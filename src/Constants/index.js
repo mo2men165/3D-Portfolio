@@ -21,7 +21,8 @@ import {
     shopify,
     threejs,
     portfolio,
-    shirt
+    shirt,
+    metaverse
   } from "../assets";
   
   export const navLinks = [
@@ -261,6 +262,32 @@ import {
         },
       ],
       image: shirt,
+      source_code_link: "https://github.com/mo2men165/3D-Shirt-Customizer",
+      website_link: 'https://mo2men165.github.io/3D-Shirt-Customizer/'
+    },
+    {
+      name: "Metaversus",
+      description:
+        "A dummy site for 'Metaversus' a VR game that allows you to explore different worlds ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js 13",
+          color: "green-text-gradient",
+        },
+      ],
+      image: metaverse,
       source_code_link: "https://github.com/mo2men165/3D-Shirt-Customizer",
       website_link: 'https://mo2men165.github.io/3D-Shirt-Customizer/'
     },

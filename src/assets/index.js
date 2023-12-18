@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 
 import portfolio from "./portfolio.png";
 import shirt from "./shirt.png"
+import metaverse from "./Metaversus.png"
 
 export {
   logo,
@@ -57,5 +58,6 @@ export {
   starbucks,
   tesla,
   portfolio,
-  shirt
+  shirt,
+  metaverse
 };
