@@ -288,8 +288,8 @@ import {
         },
       ],
       image: metaverse,
-      source_code_link: "https://github.com/mo2men165/3D-Shirt-Customizer",
-      website_link: 'https://mo2men165.github.io/3D-Shirt-Customizer/'
+      source_code_link: "https://github.com/mo2men165/Metaversus",
+      website_link: 'https://mo2men165.github.io/Metaversus/'
     },
   ];
   
