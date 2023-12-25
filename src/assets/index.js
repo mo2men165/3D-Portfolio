@@ -26,10 +26,9 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-
-import portfolio from "./portfolio.png";
 import shirt from "./shirt.png"
 import metaverse from "./Metaversus.png"
+import dashboard from './dashboard.png'
 
 export {
   logo,
@@ -57,7 +56,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  portfolio,
   shirt,
-  metaverse
+  metaverse,
+  dashboard
 };

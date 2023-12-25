@@ -20,9 +20,9 @@ import {
     tesla,
     shopify,
     threejs,
-    portfolio,
     shirt,
-    metaverse
+    metaverse,
+    dashboard
   } from "../assets";
   
   export const navLinks = [
@@ -197,40 +197,6 @@ import {
   ];
   
   const projects = [
-    // {
-    //   name: "3D Portfolio",
-    //   description:
-    //     "A 3D portfolio to showcase all my projects and work experience",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "three.js",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "tailwind",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "framer-motion",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "react-tilt",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "emailjs",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: portfolio,
-    //   source_code_link: "https://github.com/mo2men165/3D-Portfolio/tree/main",
-    //   website_link: "#home"
-    // },
     {
       name: "3D Shirt Customzier",
       description:
@@ -290,6 +256,28 @@ import {
       image: metaverse,
       source_code_link: "https://github.com/mo2men165/Metaversus",
       website_link: 'https://mo2men165.github.io/Metaversus/'
+    },
+    {
+      name: "Shoppy",
+      description:
+        "A React dashbard built with dummy data. Adjustable dashboard for real life projects.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Syncfusion",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/mo2men165/Shoppy-Dashboard",
+      website_link: 'https://mo2men165.github.io/Shoppy-Dashboard/'
     },
   ];
   
