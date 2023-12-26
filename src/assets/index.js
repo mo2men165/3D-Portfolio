@@ -30,6 +30,8 @@ import shirt from "./shirt.png"
 import metaverse from "./Metaversus.png"
 import dashboard from './dashboard.png'
 import gpt3 from './gpt3.png'
+import gericht from './gericht.png'
+import hoobank from './hoobank.png'
 
 export {
   logo,
@@ -60,5 +62,7 @@ export {
   shirt,
   metaverse,
   dashboard,
-  gpt3
+  gpt3,
+  gericht,
+  hoobank
 };

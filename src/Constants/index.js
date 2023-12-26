@@ -23,7 +23,9 @@ import {
     shirt,
     metaverse,
     dashboard,
-    gpt3
+    gpt3,
+    gericht,
+    hoobank
   } from "../assets";
   
   export const navLinks = [
@@ -227,6 +229,10 @@ import {
           name: "valtio",
           color: "pink-text-gradient",
         },
+        {
+          name: "Vite.js",
+          color: "blue-text-gradient",
+        },
       ],
       image: shirt,
       source_code_link: "https://github.com/mo2men165/3D-Shirt-Customizer",
@@ -273,7 +279,7 @@ import {
         },
         {
           name: "Syncfusion",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: dashboard,
@@ -293,6 +299,42 @@ import {
       image: gpt3,
       source_code_link: "https://github.com/mo2men165/GPT3",
       website_link: 'https://mo2men165.github.io/GPT3/'
+    },
+    {
+      name: "Gericht",
+      description:
+        `A dummy site for "Gericht" a fancy dining restaurant `,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: gericht,
+      source_code_link: "https://github.com/mo2men165/Gericht-Restaurant",
+      website_link: 'https://mo2men165.github.io/Gericht-Restaurant/'
+    },
+    {
+      name: "HooBank",
+      description:
+        `A dummy site for "HooBank" a business offering next-generation payment methods`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "green-text-gradient",
+        },
+      ],
+      image: hoobank,
+      source_code_link: "https://github.com/mo2men165/HooBank",
+      website_link: 'https://mo2men165.github.io/HooBank/'
     },
   ];
   
