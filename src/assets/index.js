@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import shirt from "./shirt.png"
 import metaverse from "./Metaversus.png"
 import dashboard from './dashboard.png'
+import gpt3 from './gpt3.png'
 
 export {
   logo,
@@ -58,5 +59,6 @@ export {
   tesla,
   shirt,
   metaverse,
-  dashboard
+  dashboard,
+  gpt3
 };

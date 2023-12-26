@@ -10,7 +10,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, w
 <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
 <Tilt 
 options = {{max: 45, scale: 1, speed: 450 }}
-className = 'bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+className = 'bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[500px] relative'
 >
 <div className="relative w-full h-[230px]">
 <img src={image} 
@@ -35,7 +35,7 @@ className="black-gradient w-10 h-10 rounded-full flex justify-center items-cente
 ))}
 
 </div>
-<div className="mt-3">
+<div className="mt-3 absolute bottom-7">
 <button 
 className="btn py-2 px-3 text-[12px] outlined-none w-fit 
 text-white text-bold shadow-md shadow-primary rounded-xl"

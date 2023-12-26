@@ -22,7 +22,8 @@ import {
     threejs,
     shirt,
     metaverse,
-    dashboard
+    dashboard,
+    gpt3
   } from "../assets";
   
   export const navLinks = [
@@ -278,6 +279,20 @@ import {
       image: dashboard,
       source_code_link: "https://github.com/mo2men165/Shoppy-Dashboard",
       website_link: 'https://mo2men165.github.io/Shoppy-Dashboard/'
+    },
+    {
+      name: "GPT3",
+      description:
+        `A dummy site for "GPT3" promoting OpenAi's GPT3 product `,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: gpt3,
+      source_code_link: "https://github.com/mo2men165/GPT3",
+      website_link: 'https://mo2men165.github.io/GPT3/'
     },
   ];
   
