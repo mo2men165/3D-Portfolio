@@ -13,19 +13,21 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     threejs,
     shirt,
     metaverse,
     dashboard,
     gpt3,
     gericht,
-    hoobank
+    hoobank,
+    o4u,
+    midas,
+    iphone,
+    brainwave,
+    yoom,
+    figpro,
+    carhub,
+    livedocs,
   } from "../assets";
   
   export const navLinks = [
@@ -49,7 +51,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -106,68 +108,40 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Senior Sales Executive",
+      company_name: "Outsourcing-4-You",
+      icon: o4u,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2021 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Started as a telesales agent and rose up the ranks as I got promoted from a sales agent to a sales closer after only 6 months and 4 months later I got promoted to become the Senior Sales Executive",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Acquisitions Specialist",
+      company_name: "Midas Acquisitions",
+      icon: midas,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2023 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Deal Sourcing and Analysis: Proactively sourced and analyzed potential real estate acquisitions across Texas, assessing properties based on market trends, financial viability, and investment potential.",
+        "Negotiation and Closing: Successfully negotiated purchase agreements, working closely with sellers, brokers, and legal teams to ensure smooth and timely closings, resulting in significant portfolio growth for the company.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Operations Team Leader",
+      company_name: "Outsourcing-4-You",
+      icon: o4u,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2024 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Team Management: Led a team of telesales representatives, providing guidance, training, and support to ensure the achievement of sales targets and overall team performance.",
+        "Performance Optimization: Implemented strategies to optimize call scripts, improve customer engagement, and increase conversion rates, resulting in higher sales and customer satisfaction.",
       ],
     },
   ];
@@ -336,6 +310,155 @@ import {
       source_code_link: "https://github.com/mo2men165/HooBank",
       website_link: 'https://mo2men165.github.io/HooBank/'
     },
+    {
+      name: "Brainwave",
+      description:
+        `A dummy site for Brainwave an AI chatbot`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+      ],
+      image: brainwave,
+      source_code_link: "https://github.com/mo2men165/Brainwave",
+      website_link: 'https://brainwave-jet-zeta.vercel.app/'
+    },
+    {
+      name: "Iphone",
+      description:
+        `An Iphone sales website, selling all the recent apple products`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Sentry",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Gsap",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: iphone,
+      source_code_link: "https://github.com/mo2men165/Iphone",
+      website_link: 'https://iphone-pied.vercel.app/'
+    },
+    {
+      name: "Yoom",
+      description:
+        `A Zoom clone`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nextjs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "shadcn/ui",
+          color: "green-text-gradient",
+        },
+        {
+          name: "stream",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: yoom,
+      source_code_link: "https://github.com/mo2men165/Yoom",
+      website_link: 'https://yoom-eight-flame.vercel.app/'
+    },
+    {
+      name: "Car Hub",
+      description:
+        `A car showcase website, showcasing cars for sale using RapidApi`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nextjs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+      ],
+      image: carhub,
+      source_code_link: "https://github.com/mo2men165/Car-hub",
+      website_link: 'https://car-hub-wine-ten.vercel.app/'
+    },
+    {
+      name: "LiveDocs",
+      description:
+        `A Google docs clone`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NextJs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Liveblocks",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Clerk",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: livedocs,
+      source_code_link: "https://github.com/mo2men165/LiveDocs",
+      website_link: 'https://live-docs-sooty.vercel.app/'
+    },
+    {
+      name: "FigPro",
+      description:
+        `A Figma clone`,
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NextJs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Liveblocks",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: figpro,
+      source_code_link: "https://github.com/mo2men165/Figma-Clone",
+      website_link: 'https://figma-clone-three-snowy.vercel.app/'
+    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

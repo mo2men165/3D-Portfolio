@@ -129,12 +129,14 @@ const Contact = () => {
             className="bg-tertiary py-4 px-6 text-white rounded-lg outlined-none border-none font-medium placeholder:text-secondary"
              />
         </label>
+
         <button 
         type="submit"
         className="btn py-2 px-7 text-[20px] outlined-none w-fit text-white text-bold shadow-md shadow-primary rounded-xl"
         >
           {loading ? "Sending..." : "Send"}
         </button>
+
       </form>
     </motion.div>
 
@@ -144,6 +146,7 @@ const Contact = () => {
     >
       <EarthCanvas />
     </motion.div>
+    
   </div>
   
   </>

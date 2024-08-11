@@ -8,8 +8,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -21,10 +19,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+import midas from "./company/android-chrome-192x192.png"
+import o4u from "./company/o4u.jpg"
 
 import shirt from "./shirt.png"
 import metaverse from "./Metaversus.png"
@@ -32,6 +29,13 @@ import dashboard from './dashboard.png'
 import gpt3 from './gpt3.png'
 import gericht from './gericht.png'
 import hoobank from './hoobank.png'
+import iphone from './iphone.png'
+import brainwave from './brainwave.png'
+import yoom from './yoom.png'
+import figpro from './figpro.png'
+import carhub from './carhub.png'
+import livedocs from './livedocs.png'
+
 
 export {
   logo,
@@ -43,8 +47,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -55,14 +57,18 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   shirt,
   metaverse,
   dashboard,
   gpt3,
   gericht,
-  hoobank
+  hoobank,
+  midas,
+  o4u,
+  iphone,
+  brainwave,
+  yoom,
+  figpro,
+  carhub,
+  livedocs,
 };

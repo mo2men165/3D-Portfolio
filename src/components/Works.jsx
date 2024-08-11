@@ -50,7 +50,7 @@ onClick={()=> window.open(website_link, "_blank")}>
 const Works = () => {
   return <>
   
-  <motion.div variants={textVariant}>
+  <motion.div variants={textVariant} id="work">
     <p className = {styles.sectionSubText}>My work</p>
     <h2 className= {styles.sectionHeadText}>Projects.</h2>
     </motion.div>
