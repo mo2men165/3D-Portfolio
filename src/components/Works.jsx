@@ -12,7 +12,7 @@ const Works = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    const checkMobile = () => setIsMobile(window.innerWidth <= 1400);
     checkMobile(); // Initial check
     window.addEventListener('resize', checkMobile); // Update on resize
 
